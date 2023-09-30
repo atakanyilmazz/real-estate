@@ -53,4 +53,3 @@ const PropertySlice = createSlice({
 });
 
 export default PropertySlice.reducer;
-//   .post("")
