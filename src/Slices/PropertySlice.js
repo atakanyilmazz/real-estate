@@ -15,7 +15,6 @@ export const fetchProperties = createAsyncThunk(
 export const createPropery = createAsyncThunk(
   "property/createPropery",
   async (payload) => {
-    console.log("Atii 23", payload);
     const response = await axios.post(
       "http://localhost:5121/properties/create",
       payload

@@ -70,10 +70,6 @@ export default function Create() {
     dispatch(fetchRooms());
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  //   useEffect(() => {
-  //     console.log("Atii", formData);
-  //   }, [formData]);
-
   const handleCreate = () => {
     var payload = {
       propertyType: formData.propertyType,
